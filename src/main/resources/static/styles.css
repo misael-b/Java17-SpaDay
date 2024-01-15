@@ -4,7 +4,7 @@ body {
 
 div {
     margin: auto;
-    width: 50%;
+    width: 95%;
     padding: 10px;
     text-align: center;
     background-color: white;
@@ -12,7 +12,7 @@ div {
 
 h1 {
     margin: auto;
-        width: 50%;
+        width: 95%;
         padding: 10px;
         text-align: center;
         background-color: white;
@@ -20,7 +20,7 @@ h1 {
 
 table {
     margin: auto;
-            width: 50%;
+            width: 95%;
             padding: 10px;
             text-align: center;
 }
