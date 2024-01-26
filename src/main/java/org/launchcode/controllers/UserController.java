@@ -24,13 +24,14 @@ public class UserController {
         if(errors.hasErrors()){
             return "user/add";
         }else{
-            if (user.getPassword().equals(verify)) {
-                return "user/index";
-            }
-            else {
-                model.addAttribute("error", "Passwords do not match");
-                return "user/add";
-            }
+//            if (user.getPassword().equals(verify)) {
+//                return "user/index";
+//            }
+//            else {
+//                model.addAttribute("error", "Passwords do not match");
+//                return "user/add";
+//            }
+            return "user/index";
         }
 
 
